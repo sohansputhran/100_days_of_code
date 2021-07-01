@@ -3,4 +3,4 @@ Learning Python from the basics through an Udemy course.
 
 ## Acknowledgements
 
- - [Build A Stock Web Application Using Python](https://www.youtube.com/watch?v=eNDADqa9858)
+ - [100 Days of Code - The Complete Python Pro Bootcamp for 2021](https://www.udemy.com/course/100-days-of-code/)
