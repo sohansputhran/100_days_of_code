@@ -1,3 +1,11 @@
+logo = """
+           _            _       _             
+          | |          | |     | |            
+  ___ __ _| | ___ _   _| | __ _| |_ ___  _ __ 
+ / __/ _` | |/ __| | | | |/ _` | __/ _ \| '__|
+| (_| (_| | | (__| |_| | | (_| | || (_) | |   
+ \___\__,_|_|\___|\__,_|_|\__,_|\__\___/|_|   
+"""
 
 def add(n1, n2):
     return n1 + n2
@@ -19,6 +27,7 @@ operations = {
 }
 
 def calculator():
+    print(logo)
     print("Welcome to the calculator")
     num1 = float(input("Enter the first number: "))
     for symbol in operations:
@@ -34,4 +43,7 @@ def calculator():
             num1 = answer
         else:
             should_continue = False
+            print("\n" * 20)
             calculator()
+
+calculator()
